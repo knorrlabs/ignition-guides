@@ -5,7 +5,7 @@ sidebar_position: 4
 # Initialize a Local Repository
 
 :::tip Using Docker?
-If you are using the [ia-eknorr/project-template](https://github.com/ia-eknorr/project-template) Docker setup, skip this page. The template already includes a pre-initialized repository structure. Fork the template on GitHub and clone it instead of following the steps below.
+If you are using the [etknorr/project-template](https://github.com/etknorr/project-template) Docker setup, skip this page. The template already includes a pre-initialized repository structure. Fork the template on GitHub and clone it instead of following the steps below.
 :::
 
 ## Procedure
@@ -60,7 +60,7 @@ for the full picture.
 
 In Ignition 8.3, project and configuration files are stored on the filesystem (not in a SQLite database), making them directly trackable with Git.
 
-When using Docker with the [ia-eknorr/project-template](https://github.com/ia-eknorr/project-template):
+When using Docker with the [etknorr/project-template](https://github.com/etknorr/project-template):
 
 | Directory | What it Contains |
 | --- | --- |

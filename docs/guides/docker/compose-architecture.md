@@ -11,7 +11,7 @@ sidebar_position: 2
 
 :::
 
-The [Project Template](https://github.com/ia-eknorr/project-template) defines three services in its compose file. Each one exists for a specific reason. This guide walks through exactly what happens when you run `docker compose up`, service by service.
+The [Project Template](https://github.com/etknorr/project-template) defines three services in its compose file. Each one exists for a specific reason. This guide walks through exactly what happens when you run `docker compose up`, service by service.
 
 ## The Three Services
 

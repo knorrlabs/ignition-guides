@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Day-Two Operations
 
-This guide covers everything you need to operate an Ignition gateway running in Docker after the initial setup. It assumes the gateway is already running from the [Project Template](https://github.com/ia-eknorr/project-template).
+This guide covers everything you need to operate an Ignition gateway running in Docker after the initial setup. It assumes the gateway is already running from the [Project Template](https://github.com/etknorr/project-template).
 
 :::tip Before continuing
 Read [The Compose Architecture](./compose-architecture.md) to understand how the services, volumes, and bind mounts fit together before running any of the commands below.

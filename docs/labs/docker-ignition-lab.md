@@ -22,12 +22,12 @@ This lab is self-contained: you will create a repository from `project-template`
 
 ## Step 0: Create Your Project
 
-The [`ia-eknorr/project-template`](https://github.com/ia-eknorr/project-template) repository
+The [`etknorr/project-template`](https://github.com/etknorr/project-template) repository
 is a pre-configured Ignition 8.3 Docker project. Create your own copy of it.
 
 ### Create the repository on GitHub
 
-1. Go to [github.com/ia-eknorr/project-template](https://github.com/ia-eknorr/project-template)
+1. Go to [github.com/etknorr/project-template](https://github.com/etknorr/project-template)
 2. Click the green **Use this template** button, then select **Create a new repository**
 3. Fill in the form:
    - **Owner**: your personal GitHub account
@@ -57,7 +57,7 @@ copy .env.example .env
 
 Open `.env` in your editor and set `GATEWAY_NAME` to match your repository name (for example, `my-ignition-project`). This becomes the Traefik hostname - your gateway will be available at `https://my-ignition-project.localtest.me`. The default `DB_USER`, `DB_PASSWORD`, and `TZ` are fine for local development.
 
-The gateway ships open by default: the UI does not require a login. A committed admin user (see the [project-template Security section](https://github.com/ia-eknorr/project-template#security)) is available when you need to launch the Designer.
+The gateway ships open by default: the UI does not require a login. A committed admin user (see the [project-template Security section](https://github.com/etknorr/project-template#security)) is available when you need to launch the Designer.
 
 :::note .env stays out of git
 `.env` is listed in `.gitignore` by default. Environment-specific values should never be committed. Share configuration through `.env.example` instead.
@@ -156,7 +156,7 @@ Traefik generates a self-signed certificate for `*.localtest.me`. Your browser w
 The gateway auto-commissions during startup and lands directly on the gateway home page - no login is required to browse the UI. Confirm that the gateway name at the top matches `GATEWAY_NAME` from your `.env` file.
 
 :::note Open by default
-The `project-template` ships open: no login is required to browse the Gateway. You only need to authenticate for privileged operations like launching the Designer. Before any non-local deployment, follow the [Security section of the project-template README](https://github.com/ia-eknorr/project-template#security) to lock it down.
+The `project-template` ships open: no login is required to browse the Gateway. You only need to authenticate for privileged operations like launching the Designer. Before any non-local deployment, follow the [Security section of the project-template README](https://github.com/etknorr/project-template#security) to lock it down.
 :::
 
 ![Gateway homepage](/img/lab/gateway-homepage.png)
@@ -212,7 +212,7 @@ Ignition's license activation is tied to the gateway's UUID. Deriving it from `G
 Launch the Designer from the gateway homepage:
 
 1. Click **Launch Designer** on the gateway homepage
-2. Log in with the committed admin credentials (see the [project-template Security section](https://github.com/ia-eknorr/project-template#security))
+2. Log in with the committed admin credentials (see the [project-template Security section](https://github.com/etknorr/project-template#security))
 3. Click **New Project**, name it `docker_lab` (or similar), and open it
 4. In the Project Browser, right-click **Views** and add a new view named `hello`
 5. Drag a **Label** component onto the view and change its text to something recognizable

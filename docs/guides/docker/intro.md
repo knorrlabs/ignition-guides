@@ -11,7 +11,7 @@ sidebar_position: 1
 
 :::
 
-Docker changes how you install, run, and share Ignition gateways. Instead of running an installer on your workstation and managing a system service, you declare a gateway in a compose file and start it with a single command. This guide explains the concepts you need before working with the [Project Template](https://github.com/ia-eknorr/project-template).
+Docker changes how you install, run, and share Ignition gateways. Instead of running an installer on your workstation and managing a system service, you declare a gateway in a compose file and start it with a single command. This guide explains the concepts you need before working with the [Project Template](https://github.com/etknorr/project-template).
 
 ## What Docker Solves for Ignition Developers
 

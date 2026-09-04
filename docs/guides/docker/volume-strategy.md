@@ -8,7 +8,7 @@ sidebar_position: 3
 Read [The Compose Architecture](./compose-architecture.md) before this page.
 :::
 
-The [Project Template](https://github.com/ia-eknorr/project-template) combines two storage mechanisms based on the [IA Version Control Guide](https://docs.inductiveautomation.com/docs/8.3/tutorials/version-control-guide#advanced-version-control-considerations): a Docker-managed named volume for runtime state, and bind mounts from your repository for the files Git should track. The bind mounts layer on top of the volume at the same paths, so Ignition sees a unified `/data` directory while Git only sees the specific subdirectories you care about.
+The [Project Template](https://github.com/etknorr/project-template) combines two storage mechanisms based on the [IA Version Control Guide](https://docs.inductiveautomation.com/docs/8.3/tutorials/version-control-guide#advanced-version-control-considerations): a Docker-managed named volume for runtime state, and bind mounts from your repository for the files Git should track. The bind mounts layer on top of the volume at the same paths, so Ignition sees a unified `/data` directory while Git only sees the specific subdirectories you care about.
 
 ## What the named volume holds
 
