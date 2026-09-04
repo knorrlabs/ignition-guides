@@ -1,4 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>knorrlabs/renovate-config"]
+  "extends": ["github>knorrlabs/renovate-config"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["^src/constants\\.ts$"],
+      "matchStrings": [
+        "IGNITION_VERSION\\s*=\\s*['\"](?<currentValue>[^'\"]+)['\"]"
+      ],
+      "depNameTemplate": "inductiveautomation/ignition",
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["inductiveautomation/ignition"],
+      "commitMessageTopic": "Ignition image",
+      "commitMessageExtra": "to {{newVersion}}",
+      "labels": ["dependencies", "ignition-version"]
+    }
+  ]
 }
