@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Traefik Reverse Proxy
 
-**GitHub**: [ia-eknorr/traefik-reverse-proxy](https://github.com/ia-eknorr/traefik-reverse-proxy)
+**GitHub**: [etknorr/traefik-reverse-proxy](https://github.com/etknorr/traefik-reverse-proxy)
 
 Traefik is a lightweight reverse proxy that runs alongside your Docker stacks and gives
 each service a friendly local URL instead of a port number.
@@ -40,7 +40,7 @@ once and leave it running.
    ```shell
    mkdir -p ~/projects/utilities
    cd ~/projects/utilities
-   git clone https://github.com/ia-eknorr/traefik-reverse-proxy.git traefik
+   git clone https://github.com/etknorr/traefik-reverse-proxy.git traefik
    cd traefik
    ```
 

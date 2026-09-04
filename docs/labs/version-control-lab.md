@@ -28,12 +28,12 @@ Ensure the following are set up:
 
 ## Step 1: Create Your Repository from the Template
 
-The `ia-eknorr/project-template` gives you a pre-configured Ignition 8.3 Docker project
+The `etknorr/project-template` gives you a pre-configured Ignition 8.3 Docker project
 with the right bind mounts already in place.
 
 ### Create the repository on GitHub
 
-1. Go to [github.com/ia-eknorr/project-template](https://github.com/ia-eknorr/project-template)
+1. Go to [github.com/etknorr/project-template](https://github.com/etknorr/project-template)
 
 2. Click the green **Use this template** button, then select **Create a new repository**:
 
