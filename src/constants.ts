@@ -1,1 +1,1 @@
-export const IGNITION_VERSION = '8.3.6';
+export const IGNITION_VERSION = '8.3.9';
