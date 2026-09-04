@@ -26,7 +26,7 @@ Stoker is for teams running Ignition on Kubernetes who want GitOps-style config 
 - Supports GitHub App, SSH key, and API token authentication
 - Mutating webhook injects the agent sidecar automatically with namespace/pod labels
 - Webhook receiver supports GitHub releases, ArgoCD notifications, Kargo promotions, and generic payloads
-- Helm chart available at [charts.ia.io](https://charts.ia.io)
+- Helm chart published to `oci://ghcr.io/knorrlabs/charts/stoker-operator`
 
 ## Quick Links
 
