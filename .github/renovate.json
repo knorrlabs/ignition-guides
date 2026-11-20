@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>knorrlabs/renovate-config",
-    "github>knorrlabs/renovate-config:ignition-automerge"
+    "github>knorrlabs/renovate-config:ignition-automerge",
+    "github>knorrlabs/renovate-config:docs-site"
   ],
   "customManagers": [
     {
